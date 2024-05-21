@@ -23,10 +23,6 @@ button{
 .navbar
 { 
     background-color: rgb(228, 225, 225);
-/*    
-   height: 100px;
-   width:100%; */
-   /* color: white; */
    position:sticky;
    top:0;
    display: flex;
@@ -75,14 +71,12 @@ button{
  .page1
  {
     height: calc(100vh - 100px);
-    /* background-color: aliceblue; */
     width: 100%;
     display: flex;
  }
  .left-side{
     height: 100%;
     width:50%;
-    /* background-color: rgb(239, 205, 192); */
  }
 
  .content-left h1{
@@ -119,8 +113,7 @@ button{
    /* ------page2--------------- */
  .page2
  {
-    /* height: calc(100% - 100px); */
-    /* background-color: aliceblue; */
+    
     width: 100%;
     display: flex;
     margin: 4vw 0;
@@ -128,7 +121,6 @@ button{
  .page2-left{
     height: 100%;
     width:50%;
-    /* background-color: blanchedalmond; */
  }
  .post-job{
     padding:3vw;
@@ -143,7 +135,6 @@ button{
  .page2-right{
     height: 100%;
     width:50%;
-    /* background-color: aliceblue; */
  }
  .apply-job{
     padding:3vw;
@@ -260,8 +251,12 @@ li{
         margin-bottom: 2vw;
     }
     .footer{
-        height: 40vw;
-        margin-top: 5vw;
+        height: 30vh;
+        margin-top: 10vw;
+    }
+    .copyrights{
+        padding: 3vw 2vw;
+        flex-wrap: wrap;
     }
    
 }
